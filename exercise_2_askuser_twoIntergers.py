@@ -1,3 +1,4 @@
+import sys
 
 def isValid(num):
     while True:
@@ -14,7 +15,7 @@ def main():
     print(f'The Sum of {val1} and {val2} is: {val1 + val2}')
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
 
 ## Without checking if the input is an integer
 ## def main():

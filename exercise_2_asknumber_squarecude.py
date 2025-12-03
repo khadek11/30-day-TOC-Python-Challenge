@@ -1,3 +1,4 @@
+import sys
 
 def isValid(num):
     while True:
@@ -16,4 +17,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())
