@@ -14,6 +14,9 @@ def main():
     person.update({"age": 26})
     #print updated dictionary
     print(person)
+    #add a new key and value to the dict
+    person["is_student"] = False
+    print(person)
     return 0
 
 
